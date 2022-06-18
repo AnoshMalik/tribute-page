@@ -1,0 +1,115 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  
+  /*Added a background image and set the same colour*/
+  
+  background-color: #2b66ac;
+ /* background-image: url('https://anoshmalik.github.io/CYF/fb%20pic.jpg');
+  background-repeat: no-repeat;*/
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+.img{
+  text-align: center;
+  display: block;
+  filter: drop-shadow(5px 5px 5px  yellow);
+  animation-name: glowImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  
+ /* position: fixed;
+  left: 50% ;
+  transform:translate(-50%,0%);*/
+}
+
+@keyframes glowImage{  
+  0% {transform: scale(1.0); filter: drop-shadow(5px 5px 5px  yellow);}
+  50% {transform: scale(1.25); filter: drop-shadow(15px 15px 15px  yellow);}
+  100% {transform: scale(1.0); filter: drop-shadow(5px 5px 5px  yellow);}
+
+}
+
+.c-site-header, a, h3{
+text-align: center;
+    color: yellow;
+    font-family: monospace; }
+
+/*Adding my own style to the page*/
+/**/
+
+.text{
+ /* margin-left, margin-right: 25px;*/
+ /* width: 80vmax;*/
+  padding-left: 10%; 
+  padding-right: 10%;
+  text-align: center;
+ 
+}
+
+#experience, #intro, #goals{
+ /* margin-left: 10%;
+  margin-right: 10%;*/
+}
+
+h1, h2, .c-site-links, footer, p, div, img{
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace; 
+}
+
+/*Adding underlines*/
+h2, .yellow {
+  
+    /*text-decoration-line: underline;*/
+    color: yellow;
+
+}
+
+.iframe-div{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  height:0;
+  
+}
+.iframe-itself{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  
+}
+article, nav, footer, .border{
+  border: 2px solid yellow;
+  border-radius: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav{
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+h1{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: yellow;
+}
+@meta
